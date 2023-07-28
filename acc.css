@@ -1,0 +1,101 @@
+.mcq1{
+    background-color: aliceblue;
+    width: 100%;
+}
+.mcq1 h3{
+    font-family: 'Bungee Spice', cursive;
+font-family: 'Tektur', cursive;
+    color: black;
+    font-weight: bolder;
+
+}
+.video-folder{
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.video-folder-1{
+    width: 900px;
+    display: flex;
+    
+}
+.video{
+    padding-left: 20px;
+}
+.vid-sec{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.text{
+    background-color: rgb(235, 253, 253);
+    height: fit-content;
+}
+.footing{
+    background-color: black;
+    display: flex;
+    margin-top: 70px;
+}
+.foot-pages{
+ padding-left: 30px;
+    width: 33%;
+       
+}
+.footing p{
+    padding-top: 30px;
+    padding-left: 30px;
+    color:white;
+}
+.fticons{
+    margin-left: 20px;
+    word-spacing: 20px;
+    padding-bottom: 20px;
+}
+.foot-page1{
+    width: 33%;
+
+}
+.foot-page1 {
+    color: antiquewhite;
+text-align: center;
+}
+.foot-page1 a{
+    
+    display: block;
+    font-size: medium;
+    text-decoration: none;;
+    color: antiquewhite;
+    margin:10px;
+}
+.foot-page2
+{
+    margin-left: 130px;
+    width: 18%;
+}
+.foot-page2 h2
+{
+    color: antiquewhite;
+}
+
+.foot-page2 p{
+    color: antiquewhite;
+}
+.foot-btn{
+    
+    font-size: 100%;
+    padding: 5px 2px;
+    width: fit-content;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 2px double whitesmoke;
+    transition: 0.5s;
+}
+.foot-btn a:hover
+{
+    background-color:white;
+    color: black;
+    font-weight:bolder;
+    border: none;
+    border: 4px solid green;
+    transition:0.5s;
+}

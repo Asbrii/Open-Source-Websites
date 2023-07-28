@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>User Registration</title>
-  <style>
+  <title>User Registration </title>
+  <link rel="shortcut icon" href="images/title.png" type="image/x-icon">
+  <script  src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <script  src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+  <script defer src="ind.js"></script>
+
+<style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -74,7 +78,8 @@
 </head>
 
 <body>
-    <img class="logo" src="images/logo_white.png" alt="Logo">
+  <img class="logo" src="images/logo_white.png" alt="Logo">
+
   <div class="container">
     <form class="form">
       <h2>User Registration</h2>
@@ -91,9 +96,16 @@
         <input type="password" id="password" name="password" placeholder="Enter your password" required>
       </div>
       <div class="form-group">
-        <button type="submit">Register</button>
+        <button type="submit" onclick="signup()" id="signu">Register</button>
+        <br>
+        <hr>
+         <div>
+          <a href="index.html"><h3>log in</h3> </a>
+         </div>
       </div>
     </form>
+
+
   </div>
 </body>
 

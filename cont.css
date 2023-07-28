@@ -1,0 +1,73 @@
+  
+  .contains{
+    display: flex;
+  }
+  .container{
+    background-color: rgb(171, 241, 171);
+    width: 380px;
+    margin-left: 0;
+    border-radius: 6px;
+    box-shadow: 25px 20px 35px rgba(0, 0, 0, 0.1);
+  }
+.mappings{
+    border: 10px solid  rgb(171, 241, 171);
+}  
+  h1{
+    text-align: center;
+    color: rgb(32, 32, 32);
+  }
+  
+  p{
+    text-align: center;
+    color: rgb(146, 146, 146);
+  }
+  
+  form{
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  label{
+    font-weight: 200;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+  }
+  
+  input, textarea, button{
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 6px;
+    border-color: rgb(197, 196, 196);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #b4b4b4 ;
+    margin-top: 3px;
+  }
+  
+  button{
+    font-size: 21px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: rgb(96, 96, 250);
+  
+  }
+  
+  
+  .fn, .ea, .sub, .cn, .ym, .smt{
+    display: grid;
+    margin: 10px;
+  }
+  
+  button:hover{
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  textarea{
+    resize: none;
+  }
+  
+  input:focus, textarea:focus{
+    outline-color: #b4b4b4;
+  }
+  

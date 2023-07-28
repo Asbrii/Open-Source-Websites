@@ -2,11 +2,12 @@ body
 {
     background-color: black;
 }
-/*------------------------------------------------NAVBAR----------------------------------------*/
 .nav
 {
-    background-color: rgba(0, 0, 0, 0.856);
+   background-image: url(images/Coconut\ Fiber\ -\ medium.jpg);
     z-index: 9;
+    height: 90px;
+    align-items: center;
     padding-left: 50px;
     padding-right:50px;
     display:flex;
@@ -27,23 +28,25 @@ body
 .logo img
 {
     padding: 8px;
-    width:30%;
+    width:40%;
     margin-left:10%;
+    opacity: 100%;
 }
 .nav_side
 {
     float:right;
     width:45%;
     margin-top: 20px;
+    
 }
 .nav_side a
 {
     text-decoration: none;
     margin-right: 10px;
-    margin-left:30px;
+    margin-left:-30px;
     margin-top: 20px;
-    padding-top: 20px;
-    padding-left: 15px;
+    padding-top: 10px;
+    padding-left: 45px;
     color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS', sans-serif;
@@ -52,42 +55,45 @@ body
     align-items: center;
     align-content: center;
     text-align: center;
-    
+    opacity: 100px;
 }
 .nav_side a:hover
 {
-    color: rgb(79, 255, 88);
+    color: gold;
     transition: all 1s ease;
 }
 
-/*------------------------------------------------MAIN----------------------------------------*/
 .main
 {
-    background-image: url("images/Gurukula_back.jpg");
+    background-image: url("images/brahmins.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 130vh;
 }
+.sliding{
+    padding-top: 140px;
+}
 .main .main_content
 {
-    padding-top: 10%;
-    margin-left: 10%;
+    padding-top: 13%;
+    margin-left: 5%;
     margin-right: 10%;
     width:40%;
 }
 .main .main_content h2
 {
-    color: white;
+    color:rgb(7, 2, 108);
     font-size: 350%;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     text-align: left;
+    
 }
 .main .main_content h2 span
 {
-    font-size:50%;
+    font-size:60%;
     opacity: 0.9;
     font-weight: 400;
     line-height: 50px;
@@ -114,13 +120,12 @@ body
 }
 .main .main_content .btn a:hover
 {
-    background-color: rgba(255, 255, 255, 0.527);
+    background-color: rgba(255, 109, 109, 0.527);
     color: rgb(37, 0, 19);
     border: none;
     border: 4px solid rgb(37, 0, 19);
     transition:0.5s;
 }
-/*------------------------------------------------SIDE----------------------------------------*/
 .side 
 {
     background-color: rgba(0, 0, 0, 0.966);
@@ -184,7 +189,6 @@ body
     transition:0.5s;
 }
 
-/*--------------------------------------------HOW WE HELP----------------------------------------*/
 .product
 {
     float:left;
@@ -214,14 +218,15 @@ body
 {
     width:33%;
     margin: 10px;
-    height: 10%;
+    height: 8%;
     background-color: black;
     opacity: 80%;
-    border-radius: 50%;
+    border-radius: 70%;
 }
 .product .product_container .item:hover
 {
     box-shadow:0px 3px 65px 0px rgb(255, 189, 165);
+    transform: translate3d(0px,10px,0px);
 }
 .product .product_container .item .item_img
 {
@@ -254,7 +259,6 @@ body
     text-align: center;
     padding-left: 20%;
 }
-/*--------------------------------------------FOOTER----------------------------------------*/
 footer
 {
     background-color: black;
@@ -275,7 +279,7 @@ footer .pages
 
 footer .pages p
 {
-    padding-top: 5%;
+    padding-top: 2%;
     text-align: left;
     color:rgba(255, 226, 243, 0.808);
     width:90%;
@@ -297,7 +301,7 @@ footer .doc
     width:25%;
     text-align: center;
     display: inline-block;
-    padding-bottom: 5%;
+    padding-top:2%;
 }
 footer .doc h3
 {
@@ -305,7 +309,7 @@ footer .doc h3
     font-size: 30px;
     padding: 5px;
     font-weight: bold;
-    line-height: 130px;
+    line-height: 50px;
 }
 footer .doc a
 {
@@ -343,7 +347,7 @@ footer .contact h3
 {
     color: rgb(255, 226, 243);
     font-size: 30px;
-    padding: 5px;
+    padding: 2px;
     font-weight: bold;
     line-height: 130px;
 }
@@ -404,7 +408,6 @@ footer p
     text-align: center;
     font-size: 110%;
 }
-/*------------------------------------------------MAIN_ABOUT----------------------------------------*/
 .main_about
 {
     font-family: 'Trebuchet MS', sans-serif;
@@ -438,11 +441,10 @@ footer p
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
 }
-/*--------------------------------------------DONATE----------------------------------------*/
 .donate
 {
     font-family: 'Trebuchet MS', sans-serif;
-    background-image: url("images/donate_back.jpg");
+    background-image: url("images/donation-banner2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -460,6 +462,7 @@ footer p
     margin: 0% 20% 0% 20%;
     padding-top:10%;
     padding-bottom: 10%;
+    height: 695px;
 }
 .donate .donate_container h1
 {
@@ -497,10 +500,8 @@ footer p
     border: 4px solid green;
     transition:0.5s;
 }
-/*--------------------------------------------CONTACT---------------------------------------*/
 .contact_container
 {
-    padding: 100px;
     font-family: 'Trebuchet MS', sans-serif;
     background-image: url("images/about_back.jpg");
     background-position: center;
@@ -521,10 +522,16 @@ footer p
 .contact_container .g_map
 {
     border:10px solid white;
+    width: 80%;
+    margin: 10%;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color:  rgb(171, 241, 171);
 }
 .contact_container .contact_content
 {
-    padding:20px;
+    margin-top: -50px;
+    /* padding:20px; */
     font-family: 'Trebuchet MS', sans-serif;
 }
 .contact_container .contact_content p
@@ -533,4 +540,3 @@ footer p
     font-size: 20px;
     line-height: 25px;
 }
-/*--------------------------------------------CATERING---------------------------------------*/
